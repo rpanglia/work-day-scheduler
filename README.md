@@ -28,7 +28,7 @@ THEN the saved events persist
 ## Preview
 This preview below shows the landing page with three inputs in three different coloured rows (past, present and future). Please note: this image showcases the web application with a zoom of 80% (normal is 100%). 
 
-![workdayscheduler](/assets/images/workdayscheduler-zoome80%.jpg)
+![work-day-scheduler](/assets/images/workdayscheduler-zoom80%.jpg)
 
 ## Future Work
 * Be able to load the page with the date and time present, no delay. 
