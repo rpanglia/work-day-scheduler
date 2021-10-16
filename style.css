@@ -40,6 +40,7 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding: 24px;
 }
 
 /*background-colours below change based on past, present and future*/
@@ -71,4 +72,7 @@ textarea{
   transition: all 0.3s ease-in-out;
 }
 
+.container {
+  margin-bottom: 10%;
+}
 /*page already responsive*/

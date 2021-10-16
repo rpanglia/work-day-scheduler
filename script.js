@@ -1,13 +1,12 @@
 // Declare Variables
-//Current day at top of page
-//moment().format('MMMM Do YYYY, h:mm:ss a');
 
 var currentDay = moment().format('dddd, MMMM Do YYYY');
 var currentTime = moment().hour();
 // var currentHour = moment().format("HH");
 // var currentHourInt = parseInt(currentHour)
 // var saveBtn = $(".saveBtn");
-$("#currentDay").html(currentDay);
+// $("#currentDay").html(currentDay);
+
 
 
 //show date AND time in header at top
