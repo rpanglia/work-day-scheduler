@@ -37,5 +37,5 @@ This preview below shows the landing page with three inputs in three different c
 ## Links
 Check out the Work Day Scheduler here: https://rpanglia.github.io/work-day-scheduler/
 
-Take Care,
+## Take Care,
 R.P.
