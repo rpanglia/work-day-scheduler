@@ -11,6 +11,16 @@ var saveBtn = $(".saveBtn");
 $("#currentDay").html(currentDay)
 
 
+
+// show date AND time in header at top
+$("#currentDay").append();
+function addDate() {
+    $("#currentDay").html(moment().format('MMMM Do YYYY, h:mm a'));
+}
+setInterval(addDate, 1000);
+
+
+
 //Function to start jQuery
 $(document).ready(function () {
 
@@ -42,9 +52,6 @@ $(document).ready(function () {
         }
 
     })
-
-
-
 
 
 
