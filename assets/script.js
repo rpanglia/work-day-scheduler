@@ -8,7 +8,7 @@ var currentHour = moment().format("HH");
 var currentHourInt = parseInt(currentHour)
 var saveBtn = $(".saveBtn");
 
-// $("#currentDay").html()
+$("#currentDay").html(currentDay)
 
 
 //Function to start jQuery
@@ -20,6 +20,35 @@ $(document).ready(function () {
 
         localStorage.setItem(time, textInput);
     }
+
+    $(".time-block").each(function() {
+        var sectionTime = parseInt($(this).attr("id").split("hour")[1]);
+
+        //below code changes the color of the sections as per time class
+        if (sectionTime < currentTime) {
+            $(this).removeClass("present");
+            $(this).removeClass("future");
+            $(this).addClass("past");
+        }
+        else if (sectionTime === currentTime) {
+            $(this).removeClass("future");
+            $(this).removeClass("past");
+            $(this).addClass("present");
+        }
+        else {
+            $(this).addClass("future");
+            $(this).removeClass("past");
+            $(this).removeClass("present"); 
+        }
+
+    })
+
+
+
+
+
+
+
 
 })
 
